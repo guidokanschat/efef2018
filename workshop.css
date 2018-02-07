@@ -1,0 +1,215 @@
+body
+{
+    counter-reset: keynote talk;
+    max-width: 70em;
+    background-color: #61BAF5;
+    font-family: "Arial";
+}
+
+p
+{
+    text-align: justify;
+    padding-right: 20px;
+}
+
+div
+{
+    margin-left: 10px;
+    width: 95%;
+}
+
+h1
+{
+    text-align: center;
+    color: #0B3861;
+    margin-left: 10px;
+    font-size: 240%;
+}
+
+h2
+{
+    text-align: center;
+    margin-left: 10px;
+}
+
+h3,h4,h5,p
+{
+    margin-left: 10px;
+}
+
+table,td,th
+{
+    border:0px;
+    padding: 5px;
+}
+
+table
+{
+    margin: 10px;
+}
+
+th
+{
+    height:5px;
+}
+
+div.main
+{
+    background: linear-gradient(to bottom, white, #61BAF5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+hr.toprule
+{
+    width:95%;
+    border: 0px;
+    margin: 10px;
+    height: 10px;
+    background-color: #1040A0;
+}
+
+table.logos
+{
+    width:95%;
+    margin: 10px;
+    background-color: white;
+}
+
+th.logos
+{
+    width: 24%;
+    padding: 10px;
+}
+
+table.menu
+{
+    width:95%;
+    background-color: #E3EEF8;
+    table-layout: fixed;
+    padding: 4px;
+}
+
+td.menu
+{
+    background-color: #CED8F6;
+    text-align: center;
+    font-weight: bold;
+    padding: 4px;
+    margin: 4px;
+}
+
+table.program
+{
+    background: white;
+    border-collapse:collapse;
+    border: 2px solid black;
+}
+
+th.day
+{
+    border: 2px solid black;
+    background-color: #20a8F7;
+}
+
+tr.transfer
+{
+    background-color: #f0a8F7;
+}
+
+tr.break
+{
+    background-color: #b0e8F7;
+}
+
+td.time
+{
+    border: 1px solid black;
+}
+
+td.who
+{
+    border: 1px solid black;
+}
+
+td.talk:before
+{
+    counter-increment: talk;
+    font-weight: bold;
+    content: "2." counter(talk) " : ";
+}
+
+td.talk
+{
+    border: 1px solid black;
+}
+
+td.keynote:before
+{
+    counter-increment: keynote;
+    font-weight: bold;
+    content: "1." counter(keynote) " : ";
+}
+
+td.keynote
+{
+    border: 1px solid black;
+}
+
+td.title
+{
+    border: 1px solid black;
+}
+
+div.validate
+{
+    margin-top: 10px;
+    text-align: right;
+}
+
+address
+{
+    font-size: 60%;
+}
+
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #a4e271;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #a4e271;
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #89c403), color-stop(1, #77a809));
+	background:-moz-linear-gradient(top, #89c403 5%, #77a809 100%);
+	background:-webkit-linear-gradient(top, #89c403 5%, #77a809 100%);
+	background:-o-linear-gradient(top, #89c403 5%, #77a809 100%);
+	background:-ms-linear-gradient(top, #89c403 5%, #77a809 100%);
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color:#89c403;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #74b807;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77a809), color-stop(1, #89c403));
+	background:-moz-linear-gradient(top, #77a809 5%, #89c403 100%);
+	background:-webkit-linear-gradient(top, #77a809 5%, #89c403 100%);
+	background:-o-linear-gradient(top, #77a809 5%, #89c403 100%);
+	background:-ms-linear-gradient(top, #77a809 5%, #89c403 100%);
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:#77a809;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
